@@ -4,21 +4,21 @@
 #define BRAKEMAX 100
 
 // speed limits for invividual modes in kph
-#define SPEEDLIMIT_ECO 15
-#define SPEEDLIMIT_NORMAL 25
-#define SPEEDLIMIT_SPORT 50
+#define SPEEDLIMIT_ECO 10
+#define SPEEDLIMIT_NORMAL 30
+#define SPEEDLIMIT_SPORT 60
 
 // motor current limits for invividual modes in mA
 // note that hacked firmware allows up to 55amps motor phase current
 #define PH_CURRENT_MAX_ECO 20000
-#define PH_CURRENT_MAX_NORMAL 30000
-#define PH_CURRENT_MAX_SPORT 50000
+#define PH_CURRENT_MAX_NORMAL 50000
+#define PH_CURRENT_MAX_SPORT 70000
 
 // motor current limit for regen in mA
 #define REGEN_MAX_CURRENT 30000
 
 // maximum current for field weakening in mA
-#define FIELD_WEAKNING_CURRENT_MAX 15000 //max id
+#define FIELD_WEAKNING_CURRENT_MAX 0 //max id
 
 // ADC channels
 #define ADC_VOLTAGE 0
